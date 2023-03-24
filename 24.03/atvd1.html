@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 2</title>
+</head>
+<body>
+    <p>Nome Aluno(a):
+        <input type="text" id="inNome"></p>
+    <p>1° Nota
+        <input type="text" id="inUm"></p>
+    <p>2° Nota
+        <input type="text" id="inDois"></p>
+
+    <button id="aluno">Exibir média Aluno</button>
+    <button id="turma">Exibir média da turma</button>
+
+
+    <script>
+        // let notas = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+        const inNome = document.getElementById('inNome');
+        const inUm = document.getElementById('inUm');
+        const inDois = document.getElementById('inDois')
+        
+        // const media = (um + dois) / 2
+
+        aluno.addEventListener('click', function(){
+            let media = (inDois + inUm) / 2 
+            if(media >= 7){
+                document.write(`Parabéns ${nome}`);
+            } else if(media <= 7 && notas >= 3){
+                document.write(`Atenção ${nome}, você está em recuperação`);
+            } else if(media < 3){
+                document.write(`Ops ${nome}, você foi reprovado`);
+            }
+          
+
+        })
+
+    </script>
+
+</body>                 
+</html>
